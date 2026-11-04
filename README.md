@@ -91,7 +91,7 @@ Las pruebas usan archivos temporales y no acceden a redes externas. La comprobac
 - Uso previsto: aprendizaje, investigación y auditorías autorizadas.
 - No hay explotación, fuerza bruta, propagación, recolección de credenciales ni envío de mensajes.
 - Los datos de CPU, procesos, conexiones, USB y metadatos varían entre sistemas y por permisos.
-- `is_private` y el alcance impiden destinos públicos; verifica siempre que cada CIDR configurado corresponda a activos bajo tu autorización.
+- El escaneo acepta únicamente redes RFC 1918 registradas en el alcance; verifica siempre que cada CIDR configurado corresponda a activos bajo tu autorización.
 - Las reglas de phishing y extensiones sospechosas son indicadores estáticos, no un veredicto antimalware.
 - La estimación de entropía de contraseñas es aproximada y no reemplaza un gestor ni políticas de autenticación.
 - Las líneas base no están firmadas. Protégelas contra cambios no autorizados y conserva copias separadas.
