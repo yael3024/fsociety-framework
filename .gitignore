@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+config/settings.local.json
+data/logs/*
+data/reports/*
+data/evidence/*
+!data/logs/.gitkeep
+!data/reports/.gitkeep
+!data/evidence/.gitkeep

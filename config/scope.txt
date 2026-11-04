@@ -1,0 +1,3 @@
+# Redes IPv4 privadas autorizadas, una red CIDR por línea.
+# Agrega solo redes propias o con autorización explícita.
+# Ejemplo: 192.168.1.0/24

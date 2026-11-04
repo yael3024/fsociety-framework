@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fsociety-framework"
+version = "0.1.0"
+description = "Modular defensive cybersecurity and digital forensics toolkit"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+dependencies = ["rich>=13.7", "typer>=0.12", "psutil>=5.9"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[project.scripts]
+fsociety = "fsociety.cli:app"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 100

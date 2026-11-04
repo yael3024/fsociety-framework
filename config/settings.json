@@ -1,0 +1,9 @@
+{
+  "data_dir": "data",
+  "scope_file": "config/scope.txt",
+  "log_level": "INFO",
+  "report_format": "json",
+  "network_timeout": 0.5,
+  "network_ports": [22, 53, 80, 443, 445, 3389],
+  "suspicious_extensions": [".exe", ".scr", ".bat", ".cmd", ".ps1", ".vbs", ".js", ".lnk"]
+}
